@@ -1,7 +1,7 @@
 # IDC-409-Speech_to_text
 
 ## Introduction:
-This repository contains a [Jupyter notebook, titled idc409_2nd_draft.ipynb](, having code of a speech to text (stt) model (similar to Deepspeech_2), written as past of the assessment project for IDC 409 Intro to data sciences course. Futhermore, it also contains a Google Colab notebook (tilted idc409_coqui_stt.ipynb), with the a test example of a pre trained model, similar to Deepspeech_2, called [**Coqui English STT model**]( https://github.com/coqui-ai/STT ).  
+This repository contains a [Jupyter notebook, titled idc409_2nd_draft.ipynb](https://github.com/RogueRock/IDC-409-Speech_to_text/blob/main/idc409_2nd_draft.ipynb), having code of a speech to text (stt) model (similar to Deepspeech_2), written as past of the assessment project for IDC 409 Intro to data sciences course. Futhermore, it also contains a [Google Colab notebook,tilted idc409_coqui_stt.ipynb](https://github.com/RogueRock/IDC-409-Speech_to_text/blob/main/idc409_coqui_stt.ipynb), with the a test example of a pre trained model, similar to Deepspeech_2, called [**Coqui English STT model**]( https://github.com/coqui-ai/STT ).  
 
 This stt model is a neural network built to take in preprocessed input audio data and give a text output of the speech for ONLY English language. TensorFlow package was used to do the pre-processing of the data, and further to add layers to the model. 
 
