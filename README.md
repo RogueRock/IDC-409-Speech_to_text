@@ -13,10 +13,10 @@ https://keithito.com/LJ-Speech-Dataset/
 https://www.kaggle.com/datasets/mathurinache/the-lj-speech-dataset/data
 https://data.keithito.com/data/speech/LJSpeech-1.1.tar.bz2
 The following packages were used:
-NumPy
-TensorFlow (Keras mainly) (https://www.tensorflow.org/api_docs/python/tf)
-Pandas
-jiwer (https://pypi.org/project/jiwer/)
+1. NumPy
+2. TensorFlow (Keras mainly) (https://www.tensorflow.org/api_docs/python/tf)
+3. Pandas
+4. jiwer (https://pypi.org/project/jiwer/)
 
 ## Discussion 
 The dataset consists of over 13000+ hours of audio which can be used to train the model. Due to time and computation restrictions, we were not able to train the model much. Training even one epoch, was approximated to be atleast 20+hours on Google Colab and over 10+ hours on an Apple M1 macbook air (2020). Therefore, the dataset was restricted to only ~130 files for an epoch, which led to an untrained model, and inaccurate predictions. With more training, on larger datasets, it should be able to predict the text with a word error rate of less than 30%.
