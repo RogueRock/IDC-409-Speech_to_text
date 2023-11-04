@@ -1,7 +1,7 @@
 # IDC-409-Speech_to_text
 
 ## Introduction:
-This repository contains a Jupyter notebook, having code of a speech to text (stt) model (similar to Deepspeech_2), written as past of the assessment project for IDC 409 Intro to data sciences course. Futhermore, it also contains a Google Colab notebook, with the a test example of a pre trained model, similar to Deepspeech_2, called **Coqui English STT model**.  
+This repository contains a Jupyter notebook, having code of a speech to text (stt) model (similar to Deepspeech_2), written as past of the assessment project for IDC 409 Intro to data sciences course. Futhermore, it also contains a Google Colab notebook, with the a test example of a pre trained model, similar to Deepspeech_2, called [**Coqui English STT model**]( https://github.com/coqui-ai/STT ).  
 
 This stt model is a neural network built to take in preprocessed input audio data and give a text output of the speech for ONLY English language. TensorFlow package was used to do the pre-processing of the data, and further to add layers to the model. 
 
@@ -9,14 +9,14 @@ This stt model is a neural network built to take in preprocessed input audio dat
 The details of each line of code has been added in the notebook itself. Any and all comments are welcomed so as to how we could improve the model and make it more efficient.
 
 The audio data being used is from the LJ speech dataset, by **Librivox project**. More info can be found on the given links :
-https://keithito.com/LJ-Speech-Dataset/
-https://www.kaggle.com/datasets/mathurinache/the-lj-speech-dataset/data
-https://data.keithito.com/data/speech/LJSpeech-1.1.tar.bz2
+[here](https://keithito.com/LJ-Speech-Dataset/),
+[here](https://www.kaggle.com/datasets/mathurinache/the-lj-speech-dataset/data), and 
+[here](https://data.keithito.com/data/speech/LJSpeech-1.1.tar.bz2)
 The following packages were used:
 1. NumPy
-2. TensorFlow (Keras mainly) (https://www.tensorflow.org/api_docs/python/tf)
+2. [TensorFlow;Keras mainly](https://www.tensorflow.org/api_docs/python/tf)
 3. Pandas
-4. jiwer (https://pypi.org/project/jiwer/)
+4. [jiwer](https://pypi.org/project/jiwer/)
 
 ## Discussion 
 The dataset consists of over 13000+ hours of audio which can be used to train the model. Due to time and computation restrictions, we were not able to train the model much. Training even one epoch, was approximated to be atleast 20+hours on Google Colab and over 10+ hours on an Apple M1 macbook air (2020). Therefore, the dataset was restricted to only ~130 files for an epoch, which led to an untrained model, and inaccurate predictions. With more training, on larger datasets, it should be able to predict the text with a word error rate of less than 30%.
