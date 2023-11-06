@@ -41,6 +41,7 @@ A pre-trained model from Coqui STT was then downloaded to give an example of wha
 #### Contributions to this git repository made by:
 Vatsal Kabra (M21008) : Major part of the code (Jupyter and Colab Notebook), setting up of the git repository, presentation  
 Kunal Rajput (MS21009) : Jupyter and colab notebook, presentation  
+Lalit Soni (MS21033) : Presentation  
 Anuj Kumar (MS21068) : Jupyter notebook, presentation  
 
 
