@@ -38,11 +38,11 @@ A pre-trained model from Coqui STT was then downloaded to give an example of wha
 ### IDC409 : Intro to data sciences  
 #### Instructor: Dr. Vishal Bhardwaj  
 ---
-#### Contributions to this git repository made by:
-Vatsal Kabra (M21008) : Major part of the code (Jupyter and Colab Notebook), setting up of the git repository, presentation  
-Kunal Rajput (MS21009) : Jupyter and colab notebook, presentation  
-Lalit Soni (MS21033) : Presentation  
-Anuj Kumar (MS21068) : Jupyter notebook, presentation  
+#### Contributions to this project:
+Vatsal Kabra (M21008) 
+Kunal Rajput (MS21009)  
+Lalit Soni (MS21033) 
+Anuj Kumar (MS21068)
 
 
 
