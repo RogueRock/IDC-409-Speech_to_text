@@ -19,7 +19,7 @@ The following packages were used:
 4. [jiwer](https://pypi.org/project/jiwer/)
 
 ## Discussion 
-The dataset consists of over 13000+ hours of audio which can be used to train the model. Due to time and computation restrictions, we were not able to train the model much. Training even one epoch, was approximated to be atleast 20+hours on Google Colab and over 10+ hours on an Apple M1 macbook air (2020). Therefore, the dataset was restricted to only ~130 files for an epoch, which led to an untrained model, and inaccurate predictions. With more training, on larger datasets, it should be able to predict the text with a word error rate of less than 30%.
+The dataset consists of over 13000+ audio clips which can be used to train the model. Due to time and computation restrictions, we were not able to train the model much. Training even one epoch, was approximated to be atleast 20+hours on Google Colab and over 10+ hours on an Apple M1 macbook air (2020). Therefore, the dataset was restricted to only ~130 files for an epoch, which led to an untrained model, and inaccurate predictions. With more training, on larger datasets, it should be able to predict the text with a word error rate of less than 30%.
 A pre-trained model from Coqui STT was then downloaded to give an example of what we had planned to get closer to. It was also trained on LibriVox dataset. More on Coqui : https://github.com/coqui-ai/STT 
 ---
 ## References
